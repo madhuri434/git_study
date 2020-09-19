@@ -1,1 +1,2 @@
 1) $ git help log
+2) $ git clone <repository_url>
