@@ -1,3 +1,30 @@
 1) $ git help log
 2) $ git init
 3) $ git clone <repository_url>
+4) $ git config --global user.email "madhu"
+5) $ git config --global user.name "name"
+6) $ git config --list
+7) $ git config --global core.editor "editplus--wait"
+8) $ git config --global color.ui true
+9) $ git init 
+10) $ pwd
+11) $ cd..
+12) $ cd 
+13) $ mkdir
+14) $ ls -la
+15) $ ls -la .git
+16) $ cat .git/config
+17) your first commit
+   1)Make changes
+2) Add the changes-----> $ git add .
+3) commit changes to the repository with a message generate------->git commit -m "Initial commit"
+
+18) view the commit log
+    $git log
+19) $ git help log
+20)$ git log -n 5
+21)$ git log --since=2020-01-01
+22)$ git log --until=2020-01-01
+23)$ git log --grep="Init"
+24)$ git log --grep="Bugfix"
+25)$ git log --grep="ghi"   
