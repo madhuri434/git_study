@@ -1,30 +1,122 @@
-1) $ git help log
-2) $ git init
-3) $ git clone <repository_url>
-4) $ git config --global user.email "madhu"
-5) $ git config --global user.name "name"
-6) $ git config --list
-7) $ git config --global core.editor "editplus--wait"
-8) $ git config --global color.ui true
-9) $ git init 
-10) $ pwd
-11) $ cd..
-12) $ cd 
-13) $ mkdir
-14) $ ls -la
-15) $ ls -la .git
-16) $ cat .git/config
+1) $ git help log----------------> gives all the git commands explaination.
+
+2) $ git add .  ------------->Use git add . in your bash to add all the files to the given folder.
+
+3) $ git clone <repository_url>--------------> clones all the files from local to repository.
+
+4) $ git config --global user.email "madhu"--------------------> to start git it takes email id
+
+5) $ git config --global user.name "name"----------------> to start git it takes name
+
+6) $ git config --list------------------> it shows the list.
+
+7) $ git config --global core.editor "editplus--wait"------------>
+
+8) $ git config --global color.ui true------------------>
+
+9) $ git init --------------->Use git init to initialize the repository. 
+It is used to create a new empty repository or directory consisting of files' with the hidden directory.
+ '.git' is created at the top level of your project, 
+which places all of the revision information in one place.
+
+
+
+10) $ pwd---------------> print the working directory.
+
+11) $ cd..------------->change the current directory.
+
+
+12) $ cd -----------> change the current directory.
+
+13) $ mkdir----------> makes the new directory.
+
+14) $ ls -la-----------> shows the all the present files in it.
+
+
+15) $ ls -la .git------------>shows the all the present files in repository.
+
+
+16) $ cat .git/config-------------> it shows all the files present in the repo.
+
 17) your first commit
    1)Make changes
-2) Add the changes-----> $ git add .
-3) commit changes to the repository with a message generate------->git commit -m "Initial commit"
+   2) Add the changes-----> $ git add .
+   3) commit changes to the repository with a message generate------->git commit -m "Initial commit"
 
-18) view the commit log
-    $git log
-19) $ git help log
-20)$ git log -n 5
-21)$ git log --since=2020-01-01
-22)$ git log --until=2020-01-01
-23)$ git log --grep="Init"
-24)$ git log --grep="Bugfix"
-25)$ git log --grep="ghi"   
+18) view the commit log------------------>$git log
+
+
+
+
+21)$ git log --since=2020-01-01-------> shows the files from mentioned date
+
+22)$ git log --until=2020-01-01--------> shows the files from mentioned date
+
+23)$ git log --grep="Init"------------->
+
+24)$ git log --grep="Bugfix"------------>
+
+25)$ git log --grep="ghi"-------------->   
+
+26)$ cat .git/HEAD------------->
+
+27)$ cat .git/refs/heads/master--------->
+
+28)$ git diff ------------------>
+
+29)$ git diff --staged------------->
+
+30)$ git diff --cached-------------->
+
+31)$ git rm file.txt----------------->
+
+
+
+33)$ git mv second.txt secondary.txt--------->rename the file name
+
+34)$ git commit -a file.txt---->from working local device to directly into repository instead of staging index.
+
+35)$ git commit --all----------->from working local device to directly into repository instead of staging index.
+
+36)$ git diff --color-words----------->
+
+37)$ git show fb7456-------------> after commit we get some number if typed it here after show
+
+38)$ git commit -am "remove contraction in text"
+
+39)$ git diff 1c16945..9dcff6ef6
+
+40)$ git diff 1c16945..HEAD --color-words-----------> It prints the 
+
+41)$ git pull------------->If you make a change in a repository, GIT PULL can allow others to view the changes. 
+It is used to acknowledge the change that you've made to the repository that you're working on. 
+Or also called a target repository.
+
+The simple command to PULL from a branch is:
+
+git pull 'remote_name' 'branch_name'.The git pull command is a combination of git fetch which fetches the recent commits in the local repository and git merge, which will merge the branch from a remote to a local branch also 'remote_name' is the repository name and 'branch_name' is the name of the specific branch.
+
+42)$ git push---------------->The git push command is used to transfer or push the commit, 
+which is made on a local branch in your computer to a remote repository like GitHub. 
+The command used for pushing to GitHub is given below.
+git push 'remote_name' 'branch_name'
+
+43)$ git status -------------->Use git status in your bash to view all the files which are going to be 
+staged to the first commit.
+
+44)$ git clean -n-------------->removes untracked files. untracked means not in repository or in staging tree.
+
+45)$ git rm --cached file.txt------------> it removes the cached version of the specified file.
+
+
+
+
+
+
+
+
+
+
+
+
+
